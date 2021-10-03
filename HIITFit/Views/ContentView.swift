@@ -41,8 +41,8 @@ struct ContentView: View {
         }
         Text("Exercise 2")
     }
-    .tabViewStyle(PageTabViewStyle())
-    .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+    //.tabViewStyle(PageTabViewStyle())
+    //.indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
       //.padding()
   }
